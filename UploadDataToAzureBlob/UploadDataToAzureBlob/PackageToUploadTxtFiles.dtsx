@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/27/2017 11:24:13 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="SHISHIRS"
+  DTS:CreatorName="CONTATAN\shishir"
+  DTS:DTSID="{8754C5D9-3EE8-4522-ACAA-04752AF173D6}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="14.0.0800.90"
+  DTS:LocaleID="1033"
+  DTS:ObjectName="PackageToUploadTxtFiles"
+  DTS:PackageType="5"
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{F88E46D4-3FEA-4094-A912-0511EF1E4BED}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[shishirmax]"
+      DTS:CreationName="AzureStorage"
+      DTS:DTSID="{34A4EFB0-0D25-4F3F-90AD-E8F5C983DACD}"
+      DTS:ObjectName="shishirmax">
+      <DTS:ObjectData>
+        <AzureStorageConnectionManager
+          ConnectionString="DefaultEndpointsProtocol=https;AccountName=shishirmax;EndpointSuffix=core.windows.net">
+          <AccountKey
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAASZ9oVoGp/0W42ZgwWblFmAAAAAAIAAAARABUAFMAAAADZgAAwAAAABAAAADSq7p/KqGnldoSB/UrooRGAAAAAASAAACgAAAAEAAAALMcNONC9x2jia4cyptLjiK4AAAAx5lsxq300H/XJw8UF6QMYFJG36kZhjKm+CUjIvwXNyfgE21F94jDCeRsBWoPW2JgJ6cBaJb7t6J21gVKg3um8FXsVYamsGzv9Ql3IMNZ2rU/HS6Ss2/d46NiGSFOO3+Yy2VhfKmMGW2WjoqTm2O50b4q2AcNiNv00SbjWgfQRlEytjSCIwR6WD0qW+4MvT5v1HJ0QANl+1UXG5fuPw7friHyOZkPUptiTDif+on1KJrro9XrpFQRIBQAAACrDpLCtdFL+viuYofLTyTiKgQXfg</AccountKey>
+        </AzureStorageConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Azure Blob Upload Task"
+      DTS:CreationName="CopyToBlobTask"
+      DTS:Description="Azure Blob Upload Task"
+      DTS:DTSID="{3BDA9415-8BDB-4866-A74E-C7566486DFC8}"
+      DTS:ExecutableType="CopyToBlobTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Azure Blob Upload Task"
+      DTS:TaskContact="Azure Blob Upload Task; (C) Microsoft Corporation; All Rights Reserved"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <CopyToBlobTask
+          ConnectionId="{34A4EFB0-0D25-4F3F-90AD-E8F5C983DACD}"
+          BlobContainer="txtblob"
+          BlobDirectory="txtdatafiles/"
+          LocalDirectory="D:\GIT\Azure_Blob\Input_Files\txt_files"
+          FileNameFilter="*"
+          TimeRangeFrom="1/1/1900 12:00:00 AM +05:30"
+          TimeRangeTo="12/31/2200 12:00:00 AM +05:30" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="192,42"
+          Id="Package\Azure Blob Upload Task"
+          TopLeft="173,260" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

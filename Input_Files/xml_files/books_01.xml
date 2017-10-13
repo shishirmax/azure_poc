@@ -1,0 +1,36 @@
+<catalog>
+   <book id="bk101">
+      <author>Gambardella, Matthew</author>
+      <title>XML Developer''s Guide</title>
+      <genre>Computer</genre>
+      <price>44.95</price>
+      <publish_date>2000-10-01</publish_date>
+      <description>An in-depth look at creating applications
+      with XML.</description>
+   </book>
+   <book id="bk102">
+      <author>Suzanne Collins </author>
+      <title>The Hunger Games (The Hunger Games, #1) </title>
+      <genre>Fiction</genre>
+      <price>44.95</price>
+      <publish_date>2008-09-14</publish_date>
+      <description>The nation of Panem, formed from a post-apocalyptic North America, is a country that consists of a wealthy Capitol region surrounded by 12 poorer districts.</description>
+   </book>
+   <book id="bk103">
+      <author>Prateek Nigam </author>
+      <title>80 Shades of Grey</title>
+      <genre>Romance</genre>
+      <price>999.99</price>
+      <publish_date>2020-10-01</publish_date>
+      <description>An in-depth look.</description>
+   </book>
+   <book id="bk104">
+      <author>Md. Ehtesham</author>
+      <title>Data Engg. Developer''s Guide</title>
+      <genre>Computer</genre>
+      <price>1044.95</price>
+      <publish_date>2020-10-01</publish_date>
+      <description>An in-depth look at creating applications
+      with Data Engineering.</description>
+   </book>
+</catalog>

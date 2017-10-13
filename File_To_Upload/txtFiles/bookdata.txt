@@ -1,0 +1,88 @@
+book_name|book_author|book_isbn|book_publisher
+Head First C|David Griffiths,Dawn Griffiths|978-1-4493-9991-7|OReilly Media
+Head First C#|Andrew Stellman, Jennifer Greene|978-1-4493-8034-2|OReilly Media
+Head First PMP|Jennifer Greene, Andrew Stellman|978-0-596-80191-5|OReilly Media
+Head First Java|Kathy Sierra, Bert Bates|978-0-596-00920-5|OReilly Media
+Head First Ajax|Rebecca M. Riordan|978-0-596-51578-2|OReilly Media
+Professional ASP.NET 4 in C# and VB|Scott Hanselman, Devin Rader, Bill Evje|978-1-4571-0402-2|Wrox
+Head First Android Development|Jonathan Simon|978-1-4493-9330-4|OReilly Media
+Head First Python|Paul Barry|978-1-4493-8267-4|OReilly Media
+Head First SQL|Lynn Beighley|978-0-596-52684-9|OReilly Media
+Head First PHP & MySQL|Lynn Beighley, Michael Morrison|978-0-596-00630-3|OReilly Media
+PHP & MySQL: Novice to Ninja|Kevin Yank|978-0-9871-5308-1|SitePoint
+AngularJS: Novice to Ninja|Sandeep Panda|978-0-99227-945-5|SitePoint
+jQuery: Novice to Ninja|Earle Castledine, Craig Sharkie|978-0-9805-7685-6|SitePoint
+OpenJDK Cookbook|Alex Kasko, Stanislav Kobylyanskiy, Alexey Mironchenko|978-1-84969-840-5|Packt Publishing
+jQuery Cookbook|Cody Lindley|978-0-596-15977-1|OReilly Media
+JavaScript Enlightenment|Cody Lindley|978-1-4493-4288-3|OReilly Media
+Beginning ASP.NET 4.5.1: in C# and VB|Imar Spaanjaars|978-1-118-84677-3|Wrox
+Beginning ASP.NET 4 in VB 2010|Matthew MacDonald|978-1-4302-2611-6|Apress
+Programming Visual Basic 2008|Tim Patrick|978-0-596-51843-1|OReilly Media
+SQL and Relational Theory|C.J. Date|978-1-44931-640-2|OReilly Media
+Drupal for Education and E-Learning|James G. Robertson, Bill Fitzgerald|978-1-78216-276-6|Packt Publishing
+Learning Cocoa with Objective-C|Apple Computer Inc, James Duncan Davidson|978-0-596-00301-2|OReilly Media
+21st Century C|Ben Klemens|978-1-4493-2714-9|OReilly Media
+Android Game Programming For Dummies|Derek James|978-1-1180-2774-5|Wiley
+Photoshop Elements 13 All-in-One For Dummies|Barbara Obermeier, Ted Padova|978-1-118-99860-1|Wiley
+Data Center Handbook|Hwaiyu Geng|978-1-118-43663-9|Wiley
+Facebook Marketing All-in-One For Dummies|Andrea Vahl, John Haydon, Jan Zimmerman|978-1-118-81618-9|Wiley
+C++ All-in-One For Dummies|John Paul Mueller, Jeff Cogswell|978-1-118-82378-1|Wiley
+Linux All-in-One For Dummies|Emmett Dulaney|978-1-118-84435-9|Wiley
+HTML5: The Missing Manual|Matthew MacDonald|978-1-44936-326-0|OReilly Media
+Facebook: The Missing Manual|E. A. Vander Veer|978-1-4493-8014-4|OReilly Media
+The Well-Grounded Java Developer|Benjamin J. Evans, Martijn Verburg|978-1-6172-9006-0|Manning
+Programming Groovy|Venkat Subramaniam|978-1-93435-609-8|The Pragmatic Programmers
+Programming Scala|Dean Wampler, Alex Payne|978-0-596-15595-7|OReilly Media
+Functional Programming in Scala|Paul Chiusano, Runar Bjarnason|9781617290657|Manning
+Functional Programming in C#|Oliver Sturm|978-0-470-74458-1|Wrox
+Professional ASP.NET MVC 5|Jon Galloway, Brad Wilson, K. Scott Allen, David Matson|978-1-11879-475-3|Wrox
+Professional Embedded ARM Development|James A. Langbridge|978-1-11878-894-3|Wrox
+Professional SharePoint 2010 Development|Scot Hillier, Kenneth Schaefer, Reza Alirezaei, Jeff Fried, Tom Rizzo, Paul Swider|978-1-4571-0423-7|Wrox
+Hacking Exposed|Stuart McClure, Joel Scambray, George Kurtz|978-0-0716-1374-3|McGraw-Hill
+An Introduction to Object-Oriented Programming with Java|Thomas Wu|978-0-07352-330-9|McGraw-Hill
+Information Security The Complete Reference|Mark Rhodes-Ousley|978-0-07178-4-351|McGraw-Hill
+HTML & CSS: The Complete Reference|Thomas Powell|978-0-07149-629-2|McGraw-Hill
+HTML: A Beginner`s Guide|Wendy Willard|978-0-07161-144-2|McGraw-Hill
+SQL: A Beginner`s Guide|Andy Oppel, Robert Sheldon|978-0-07154-864-9|McGraw-Hill
+Ruby in a Nutshell|Yukihiro Matsumoto|978-0-596-00214-5|OReilly Media
+Algorithms in a Nutshell|George T. Heineman, Gary Pollice, Stanley Selkow|978-0-596-51624-6|OReilly Media
+Beginning Java Programming|Bart Baesens, Aimee Backiel, Seppe vanden Broucke|978-1-118-73949-5|Wrox
+Python Projects|Laura Cassell, Alan Gauld|978-1-118-90866-2|Wrox
+Beginning Spring|Mert Caliskan, Kenan Sevindik, Rod Johnson, Jurgen Holler|978-1-118-89292-3|Wrox
+Just Spring|Madhusudhan Konda|978-1-4493-0640-3|OReilly Media
+Getting Started with Roo|Josh Long, Steve Mayzak|978-1-4493-0790-5|OReilly Media
+Beginning Software Engineering|Rod Stephens|978-1-118-96914-4|Wrox
+Arquillian Testing Guide|John D. Ament|978-1-78216-070-0|Packt Publishing
+Continuous Enterprise Development in Java|Andrew Lee Rubinger, Aslak Knutsen|978-1-44932-829-0|OReilly Media
+Killer Game Programming in Java|Andrew Davison|978-0-596-00730-0|OReilly Media
+Programming Android|Zigurd Mednieks, Laird Dornin, G. Blake Meike, Masumi Nakamura|978-1-4493-8969-7|OReilly Media
+Enterprise Android|Zigurd Mednieks, G. Blake Meike, Laird Dornin, Zane Pan|978-1-11818-349-6|Wrox
+Spring for Android Starter|Anthony Dahanne|978-1-78216-190-5|Packt Publishing
+Exploring SE for Android|William Confer, William Roberts|978-1-78439-059-4|Packt Publishing
+Mastering Perl, 2nd Edition|brian d foy|978-1-44939-311-3|OReilly Media
+Writing Excel Macros with VBA, 2nd Edition|Steven Roman, PhD|978-0-596-00359-3|OReilly Media
+Excel VBA Programming For Dummies|John Walkenbach|978-0-470-50369-0|Wiley
+Technical Analysis For Dummies|Barbara Rockefeller|978-0-4708-8800-1|Wiley
+Surface For Dummies|Andy Rathbone|978-1-118-89863-5|Wiley
+HTML5 and JavaScript Projects|Jeanine Meyer|978-1-4302-4032-7|Apress
+Learn HTML5 and JavaScript for Android|Gavin Williams|978-1-4302-4347-2|Apress
+C Quick Syntax Reference|Mikael Olsson|978-1-4302-6499-6|Apress
+Everyday Computing with Windows 8.1|Kevin Wilson|978-1-484208-06-9|Apress
+Integrating PHP with Windows|Arno Hollosi|978-0-7356-4791-6|Microsoft Press
+Building a Virtualized Network Solution|Nigel Cain, Alvin Morales, Michel Luescher, Damian Flynn, Mitch Tulloch|978-0-7356-8310-5|Microsoft Press
+Windows PowerShell Best Practices|Ed Wilson|978-0-7356-6649-8|Microsoft Press
+Introducing Windows Azure Hdinsight|Avkash Chauhan, Valentine Fontama, Michele Hart, Wee Hyong Tok, Buck Woody|978-0-73568-551-2|Microsoft Press
+Windows Azure Step by Step|Roberto Brunetti|978-0-7356-4972-9|Microsoft Press
+Silverlight 4 Unleashed|Laurent Bugnion|978-0-672-33336-1|SAMS Publishing
+Sams Teach Yourself jQuery Mobile in 24 Hours|Phillip Dutson|978-0-672-33594-5|SAMS Publishing
+Joomla! Templates|Angie Radtke|978-0-321-82731-9|Addison-Wesley
+Sams Teach Yourself Google AdWords in 10 Minutes|Bud E. Smith|978-0-672-33545-7|SAMS Publishing
+Algorithms: Part I, 4th Edition|Robert Sedgewick, Kevin Wayne|978-0-13-379869-2|Addison-Wesley
+Algorithms: Part II, 4th Edition|Robert Sedgewick, Kevin Wayne|978-0-13-379911-8|Addison-Wesley
+The Core iOS Developer`s Cookbook, 5th Edition|Erica Sadun, Rich Wardwell|978-0-321-94810-6|Addison-Wesley
+Sams Teach Yourself TCP/IP in 24 Hours|Joe Casad|978-0-672-32996-8|SAMS Publishing
+Sams Teach Yourself HTML, CSS, and JavaScript All in One|Julie Meloni|978-0-672-33332-3|SAMS Publishing
+Microsoft Azure SQL Database|Leonard G. Lobel and Eric D. Boyd|978-0-7356-7942-9|Microsoft Press
+Windows Azure|Roberto Brunetti|978-0-7356-4972-9|Microsoft Press
+Pro Grunt.js|James Cryer|978-1-484200-14-8|Apress
+Pro Express.js|Azat Mardan|978-1-484200-38-4|Apress

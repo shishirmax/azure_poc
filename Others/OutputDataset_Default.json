@@ -1,0 +1,15 @@
+{
+    "name": "AzureSQLDatasetTemplate",
+    "properties": {
+        "type": "AzureSqlTable",
+        "linkedServiceName": "<Name of the linked service that refers to an Azure SQL Database. This linked service must be of type: AzureSqlDatabase>",
+        "structure": [],
+        "typeProperties": {
+            "tableName": "<Name of the table in the Azure SQL Database instance that linked service refers to>"
+        },
+        "availability": {
+            "frequency": "<Specifies the time unit for data slice production. Supported frequency: Minute, Hour, Day, Week, Month>",
+            "interval": "<Specifies the interval within the defined frequency. For example, frequency set to 'Hour' and interval set to 1 indicates that new data slices should be produced hourly>"
+        }
+    }
+}

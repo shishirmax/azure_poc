@@ -1,0 +1,9 @@
+{
+    "name": "PipelineTemplate",
+    "properties": {
+        "description": "<Enter the pipeline description here>",
+        "activities": [],
+        "start": "<The start date-time of the duration in which data processing will occur or the data slices will be processed. Example : 2014-05-01T00:00:00Z>",
+        "end": "<The end date-time of the duration in which data processing will occur or the data slices will be processed. Example: 2014-05-05T00:00:00Z>"
+    }
+}

@@ -38,7 +38,7 @@ Linked Services(outputDataset):Destination-BlobStorage-B2B
 }
 ```
 
-1. OutputDataset-ntq
+2. OutputDataset-ntq
 
 ```JSON
 {

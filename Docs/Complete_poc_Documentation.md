@@ -539,6 +539,7 @@ Moving your on-premises SSIS workloads to Azure has the following potential bene
 **References:**
 - https://docs.microsoft.com/en-us/sql/integration-services/lift-shift/ssis-azure-lift-shift-ssis-packages-overview
 - https://docs.microsoft.com/en-us/azure/data-factory/tutorial-deploy-ssis-packages-azure
+- **About DTU** : https://docs.microsoft.com/en-us/azure/sql-database/sql-database-what-is-a-dtu
 
 
 

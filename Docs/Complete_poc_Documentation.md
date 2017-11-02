@@ -540,7 +540,8 @@ Moving your on-premises SSIS workloads to Azure has the following potential bene
 - https://docs.microsoft.com/en-us/sql/integration-services/lift-shift/ssis-azure-lift-shift-ssis-packages-overview
 - https://docs.microsoft.com/en-us/azure/data-factory/tutorial-deploy-ssis-packages-azure
 - **About DTU** : https://docs.microsoft.com/en-us/azure/sql-database/sql-database-what-is-a-dtu
-
+- [**Use portal to create an Azure Active Directory application and service principal that can access resources**](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal)
+- [**Service-to-service authentication with Data Lake Store using Azure Active Directory**](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-service-to-service-authenticate-using-active-directory)
 
 
 

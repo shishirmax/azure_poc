@@ -1,7 +1,7 @@
 # ADF Pipeline using copy data for Blob to Azure Data Lake Store.
 
-Blob(Source): ecrvsource
-Azure Data Lake Store(Destination):testcontainer
+Blob(Source): 
+Azure Data Lake Store(Destination):
 
 Pipeline: CopyToDataLakeStore
 Input Dataset: InputDataset-yri

@@ -543,6 +543,7 @@ Moving your on-premises SSIS workloads to Azure has the following potential bene
 - [**Use portal to create an Azure Active Directory application and service principal that can access resources**](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal)
 - [**Service-to-service authentication with Data Lake Store using Azure Active Directory**](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-service-to-service-authenticate-using-active-directory)
 - [**Get started with U-SQL**](https://docs.microsoft.com/en-us/azure/data-lake-analytics/data-lake-analytics-u-sql-get-started)
+- [**Logic Apps Examples & Scenarios](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-examples-and-scenarios)
 
 
 

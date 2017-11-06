@@ -526,35 +526,61 @@ All this process has created some Linked Services, Pipelines and Integration run
 ```
 
 
+### SSIS to Azure
 
-### SSIS to Azure:
 Introduced as part of Azure Data Factory version 2.
+
 #### Benifits
+
 Moving your on-premises SSIS workloads to Azure has the following potential benefits:
+
 - Reduce operational costs by reducing on-premises infrastructure.
 - Increase high availability with multiple nodes per cluster, as well as the high availability features of Azure and of Azure SQL Database.
 - Increase scalability with the ability to specify multiple cores per node (scale up) and multiple nodes per cluster (scale out).
 - Avoid the limitations of running SSIS on Azure virtual machines.
 
+## Azure Functions
+
+>Azure Functions is a serverless compute service that enables you to run code on-demand without having to explicitly provision or manage infrastructure. Use Azure Functions to run a script or piece of code in response to a variety of events.
+
+>Azure Functions is a solution for easily running small pieces of code, or "functions," in the cloud. You can write just the code you need for the problem at hand, without worrying about a whole application or the infrastructure to run it. Functions can make development even more productive, and you can use your development language of choice, such as C#, F#, Node.js, Java, or PHP. Pay only for the time your code runs and trust Azure to scale as needed. Azure Functions lets you develop serverless applications on Microsoft Azure.
+
+### Finctions Features
+
+Key festures of Functions:
+
+- **Choice of language:** Write functions using C#, F#, Node.js, Java, PHP, batch, bash, or any executable.
+- **Pay-per-use pricing model:** Pay only for the time spent running your code.
+- **Bring your own dependencies:** Functions supports NuGet and NPM, so you can use your favorite libraries.
+- **Integrated security:** Protect HTTP-triggered functions with OAuth providers such as Azure Active Directory, Facebook, Google, Twitter, and Microsoft Account.
+- **Simplified integration:** Easily leverage Azure services and software-as-a-service (SaaS) offerings.
+- **Flexible development:** Code your functions right in the portal or set up continuous integration and deploy your code through GitHub, Visual Studio Team Services, and other supported development tools.
+- **Open-source:** The Functions runtime is open-source and available on GitHub.
+
+
 **References:**
-- https://docs.microsoft.com/en-us/sql/integration-services/lift-shift/ssis-azure-lift-shift-ssis-packages-overview
-- https://docs.microsoft.com/en-us/azure/data-factory/tutorial-deploy-ssis-packages-azure
-- **About DTU** : https://docs.microsoft.com/en-us/azure/sql-database/sql-database-what-is-a-dtu
+
+- [SSIS Azure Lift Shift](https://docs.microsoft.com/en-us/sql/integration-services/lift-shift/ssis-azure-lift-shift-ssis-packages-overview)
+- [**Deploy SSIS using Azure**](https://docs.microsoft.com/en-us/azure/data-factory/tutorial-deploy-ssis-packages-azure)
+- [**About DTU**](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-what-is-a-dtu)
 - [**Use portal to create an Azure Active Directory application and service principal that can access resources**](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-group-create-service-principal-portal)
 - [**Service-to-service authentication with Data Lake Store using Azure Active Directory**](https://docs.microsoft.com/en-us/azure/data-lake-store/data-lake-store-service-to-service-authenticate-using-active-directory)
 - [**Get started with U-SQL**](https://docs.microsoft.com/en-us/azure/data-lake-analytics/data-lake-analytics-u-sql-get-started)
-- [**Azure Logic Apps](https://azure.microsoft.com/en-us/services/logic-apps/)
-- [**Logic Apps Examples & Scenarios](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-examples-and-scenarios)
-
-
+- [**Azure Logic Apps**](https://azure.microsoft.com/en-us/services/logic-apps/)
+- [**Logic Apps Examples & Scenarios**](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-examples-and-scenarios)
+- [Logic App using Visual Studio](https://docs.microsoft.com/en-us/azure/logic-apps/logic-apps-deploy-from-vs#installation-steps)
+- [**Azure Functions**](https://docs.microsoft.com/en-us/azure/azure-functions/)
+- [**Function triggered by Azure Blob storage**](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-storage-blob-triggered-function)
+- [**Function using Visual Studio**](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio)
 
 
 ---
 **Reference Links**:
-- https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-blob-storage
-- https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-overview
-- https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal
-- https://docs.microsoft.com/en-us/azure/data-factory/tutorial-copy-data-dot-net
-- https://www.slideshare.net/ShawnIsmail/session-38-azure-storage-part-1-introduction
-- https://docs.microsoft.com/en-us/azure/data-factory/
-- https://docs.microsoft.com/en-us/azure/data-factory/v1/data-factory-copy-activity-tutorial-using-azure-portal
+
+- [**Azure Data Factory**](https://docs.microsoft.com/en-us/azure/data-factory/)
+- [**Data Factory: Quickstart**](https://docs.microsoft.com/en-us/azure/data-factory/quickstart-create-data-factory-portal)
+- [**Data Factory: Azure Blob Storage Connector**](https://docs.microsoft.com/en-us/azure/data-factory/connector-azure-blob-storage)
+- [**Data Factory: Copy Activity**](https://docs.microsoft.com/en-us/azure/data-factory/copy-activity-overview)
+- [**Data Factory: Copy Data .Net**](https://docs.microsoft.com/en-us/azure/data-factory/tutorial-copy-data-dot-net)
+- [**Azure Storage**](https://www.slideshare.net/ShawnIsmail/session-38-azure-storage-part-1-introduction)
+- [](https://docs.microsoft.com/en-us/azure/data-factory/v1/data-factory-copy-activity-tutorial-using-azure-portal)

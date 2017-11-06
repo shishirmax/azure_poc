@@ -572,7 +572,7 @@ Key festures of Functions:
 - [**Azure Functions**](https://docs.microsoft.com/en-us/azure/azure-functions/)
 - [**Function triggered by Azure Blob storage**](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-storage-blob-triggered-function)
 - [**Function using Visual Studio**](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio)
-
+- [**Choose between Flow, Logic Apps, Functions, and WebJobs**](https://docs.microsoft.com/en-us/azure/azure-functions/functions-compare-logic-apps-ms-flow-webjobs)
 
 ---
 **Reference Links**:

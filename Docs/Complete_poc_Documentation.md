@@ -557,6 +557,33 @@ Key festures of Functions:
 - **Flexible development:** Code your functions right in the portal or set up continuous integration and deploy your code through GitHub, Visual Studio Team Services, and other supported development tools.
 - **Open-source:** The Functions runtime is open-source and available on GitHub.
 
+### Functions Summary
+
+|    |Functions|
+|----|---------|
+|Scaling|Configurationless scaling|
+|Pricing|Pay-per-use or part of App Service plan|
+|Run-type|Triggered, scheduled (by timer trigger)|
+|Trigger events|Timer, Azure Cosmos DB, Azure Event Hubs, HTTP/WebHook (GitHub, Slack), Azure App Service Mobile Apps, Azure Notification Hubs, Azure Service Bus, Azure Storage|
+|In-browser development|Supported|
+|C#|Supported|
+|F#|Supported|
+|JavaScript|Supported|
+|Java|Supported|
+|Bash|Experimental|
+|Windows scripting (.cmd, .bat)|Experimental|
+|PowerShell|Experimental|
+|PHP|Experimental|
+|Python|Experimental|
+|TypeScript|Experimental|
+
+### Flow, Logic Apps, and Functions together
+
+- For simple business optimization, use Flow.
+- If your integration scenario is too advanced for Flow, or you need DevOps capabilities and security compliances, then use Logic Apps.
+- If a step in your integration scenario requires highly custom transformation or specialized code, then write a function and trigger the function as an action in your logic app.
+
+You can call a logic app in a flow. You can also call a function in a logic app, and a logic app in a function. The integration between Flow, Logic Apps, and Functions continues to improve over time. You can build something in one service and use it in the other services. Therefore, any investment you make in these three technologies is worthwhile.
 
 **References:**
 

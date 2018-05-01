@@ -18,7 +18,7 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
 
     log.Info("Downloading zip file from storage....");
 
-    var storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=contata;AccountKey=RBLMTw7qNgTeBhRyvutkwU3HGEOIO35o38/t0y7DCnnvUCo5gA2XnNgipAo6rFNwK1HfeNRsRweWKgr0ITh94A==");
+    var storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=;AccountKey=");
     var blobClient = storageAccount.CreateCloudBlobClient();
     var container = blobClient.GetContainerReference("bcp");
     var blob = container.GetBlockBlobReference("Cars.zip");
@@ -61,7 +61,7 @@ public static void Run(TimerInfo myTimer, TraceWriter log)
 
     log.Info("BCP....");
 
-    SqlBulkCopy bcp = new SqlBulkCopy("Server=tcp:contata.database.windows.net,1433;Initial Catalog=Edina_qa;Persist Security Info=False;User ID=contata.admin;Password=C@ntata123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+    SqlBulkCopy bcp = new SqlBulkCopy("Server=tcp:.database.windows.net,1433;Initial Catalog=;Persist Security Info=False;User ID=;Password=;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
     bcp.DestinationTableName = "AzureFunctions.Cars";
     bcp.WriteToServer(sourceData);
 
